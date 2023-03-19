@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from hervatime.6te.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Mar 2023 18:44:11 GMT -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HervanaRP | Ouverture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&amp;family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+</head>
+
+<body>
+    <div id="root"></div>
+    <section class="welcome-week">
+        <div>
+            <h2>🌐 𝙊𝙪𝙫𝙚𝙧𝙩𝙪𝙧𝙚 𝙙𝙚 𝙃𝙚𝙧𝙫𝙖𝙣𝙖𝙍𝙋 ! 🌐</h2>
+            <div class="countdown">
+                <div class="container-day">
+                    <h3 class="day">Time</h3>
+                    <h3>Jours</h3>
+                </div>
+                <div class="container-hour">
+                    <h3 class="hour">Time</h3>
+                    <h3>Heures</h3>
+                </div>
+                <div class="container-minute">
+                    <h3 class="minute">Time</h3>
+                    <h3>Minutes</h3>
+                </div>
+                <div class="container-second">
+                    <h3 class="second">Time</h3>
+                    <h3>Secondes</h3>
+                </div>
+            </div>
+        </div>
+        <img class="uniLogo" src="img.png" alt="">
+        <img class="background" src="https://err.freewebhostingarea.com/404.html" alt="">
+	<div class='songstop'>Clique  sur<span style='color:#00b7ff;'> ESPACE</span> pour mettre play / pause la musique</div>
+	</div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+<audio id="audio_loading" src="song.mp3" autoplay hidden="true" loop="true"/>
+<script>
+
+var play = true;
+var myAudio = document.getElementById("audio_loading");
+
+myAudio.volume = 0.5;
+
+function onKeyDown(event) {
+        switch (event.keyCode) {
+            case 32: //SpaceBar                    
+                if (play) {
+                    myAudio.pause();
+                    play = false;
+                } else {
+                    myAudio.play();
+                    play = true;
+                }
+                break;
+        }
+  return false;
+}
+
+window.addEventListener("keydown", onKeyDown, false);
+</script>
+
+<script src="https://err.freewebhostingarea.com/404.html"></script>
+<script src="https://err.freewebhostingarea.com/404.html"></script>
+
+
+<!-- Mirrored from hervatime.6te.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Mar 2023 18:44:15 GMT -->
+</html>
