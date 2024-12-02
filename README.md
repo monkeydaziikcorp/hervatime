@@ -5,7 +5,7 @@ Customizable counter Website in HTML
 Open source fully customizable countdown site.
 
 Join my Discord here:
-https://discord.gg/starsdev
+https://discord.gg/atarashi
 
 Website by HASH.lua.
 
